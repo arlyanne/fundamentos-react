@@ -17,7 +17,7 @@ import DiretaPai from './components/comunicacao/DiretaPai';
 import IndiretaPai from './components/comunicacao/IndiretaPai';
 import Input from './components/formulario/Input';
 import Contador from './components/contador/Contador';
-
+import Mega from './components/mega/Mega';
 
 export default () =>
 
@@ -26,12 +26,19 @@ export default () =>
 
         <div className="Cards">
 
-            <Card titulo="#12 - Contador " color="#333333">
+        <Card titulo="#13 - Desafio Megasena " color="#f4f811">
 
-                <Contador numeroInicial={10}></Contador>
+            <Mega qtde={8}></Mega>
 
 
-            </Card>
+        </Card>    
+
+        <Card titulo="#12 - Contador " color="#333333">
+
+            <Contador numeroInicial={10}></Contador>
+
+
+        </Card>
 
         <Card titulo="#11 - Componente Controlado (Input)" color="#7D6608 ">
               
